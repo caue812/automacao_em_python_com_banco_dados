@@ -35,6 +35,5 @@ if response.status_code == 200:
                 cursor.execute(sql, dados)
                 conn.commit()
                 cursor.close()
-
 else:
     pass #TODO criar lógica para enviar email com aviso de falha
